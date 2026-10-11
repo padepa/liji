@@ -17,7 +17,7 @@
 
 1. 在 Mac 上安装完整 Xcode，并按提示接受 Xcode 许可协议。
 2. 打开 `jianshengjily.xcodeproj`，选择 `jianshengjily` scheme 和 iPhone 模拟器后运行。
-3. 在真机运行时，请在 Xcode 中选择自己的开发团队；不要提交签名文件或私钥。
+3. 在真机运行时，请在 Xcode 中选择自己的开发团队，并把 Bundle Identifier 改成自己的唯一标识；不要提交签名文件或私钥。
 
 最低支持 iOS 17。`jianshengjily Watch App` 是保留的实验性 target，不包含在当前 iPhone 商店版本中。肌群图素材与代码也处于未开放的实验状态。
 
