@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABCD00000000000000000001 = {isa = PBXBuildFile; fileRef = ABCD00000000000000000002; };
+		8D5D6F012C1B000100000001 /* JianshengjilyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D6E012C1B000100000001 /* JianshengjilyApp.swift */; };
+		8D5D6F022C1B000100000001 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D6E022C1B000100000001 /* Exercise.swift */; };
+		8D5D6F032C1B000100000001 /* WorkoutSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D6E032C1B000100000001 /* WorkoutSession.swift */; };
+		8D5D6F042C1B000100000001 /* SetLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D6E042C1B000100000001 /* SetLog.swift */; };
+		8D5D6F052C1B000100000001 /* WorkoutService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D6E052C1B000100000001 /* WorkoutService.swift */; };
+		8D5D6F062C1B000100000001 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D6E062C1B000100000001 /* HomeView.swift */; };
+		8D5D6F072C1B000100000001 /* ActiveWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D6E072C1B000100000001 /* ActiveWorkoutView.swift */; };
+		8D5D6F082C1B000100000001 /* ExercisePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D6E082C1B000100000001 /* ExercisePickerView.swift */; };
+		8D5D6F092C1B000100000001 /* ExerciseSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D6E092C1B000100000001 /* ExerciseSetView.swift */; };
+		8D5D6F0A2C1B000100000001 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D6E0A2C1B000100000001 /* HistoryView.swift */; };
+		8D5D6F0B2C1B000100000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D5D6E0B2C1B000100000001 /* Assets.xcassets */; };
+		8D5D6F0C2C1B000100000001 /* TrainingGlassStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D6E0C2C1B000100000001 /* TrainingGlassStyle.swift */; };
+		8D5D6F0D2C1B000100000001 /* WorkoutTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D6E0D2C1B000100000001 /* WorkoutTemplate.swift */; };
+		8D5D6F0F2C1B000100000001 /* SharePosterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D6E0F2C1B000100000001 /* SharePosterService.swift */; };
+		8D5D6F112C1B000100000001 /* TemplatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D6E112C1B000100000001 /* TemplatesView.swift */; };
+		8D5D6F122C1B000100000001 /* PRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D6E122C1B000100000001 /* PRView.swift */; };
+		8D5D6F132C1B000100000001 /* RestTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D6E132C1B000100000001 /* RestTimerView.swift */; };
+		8D5D6F152C1B000100000001 /* WorkoutLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D6E152C1B000100000001 /* WorkoutLogic.swift */; };
+		8D5D6F162C1B000100000001 /* HistoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D6E162C1B000100000001 /* HistoryDetailView.swift */; };
+		8D5D6F292C1B000100000001 /* WorkoutRecapPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D6E292C1B000100000001 /* WorkoutRecapPreviewView.swift */; };
+		8D5D6F172C1B000100000001 /* HapticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D6E172C1B000100000001 /* HapticsService.swift */; };
+		8D5D6F182C1B000100000001 /* WorkoutNoteEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D6E182C1B000100000001 /* WorkoutNoteEditorView.swift */; };
+		8D5D6F192C1B000100000001 /* TrainingPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D6E192C1B000100000001 /* TrainingPlan.swift */; };
+		8D5D6F1A2C1B000100000001 /* TrainingPlansView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D6E1A2C1B000100000001 /* TrainingPlansView.swift */; };
+		8D5D6F1B2C1B000100000001 /* AboutPrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D6E1B2C1B000100000001 /* AboutPrivacyView.swift */; };
+		8D5D6F1C2C1B000100000001 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 8D5D6E1C2C1B000100000001 /* PrivacyInfo.xcprivacy */; };
+		8D5D6F1F2C1B000100000001 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D5D6E1F2C1B000100000001 /* LaunchScreen.storyboard */; };
+		8D5D6F202C1B000100000001 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D6E202C1B000100000001 /* Localization.swift */; };
+		8D5D6F212C1B000100000001 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8D5D6E212C1B000100000001 /* Localizable.xcstrings */; };
+		8D5D6F222C1B000100000001 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8D5D6E222C1B000100000001 /* InfoPlist.xcstrings */; };
+		8D5D6F232C1B000100000001 /* DefaultContentLocalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D6E232C1B000100000001 /* DefaultContentLocalization.swift */; };
+		8D5D6F242C1B000100000001 /* ExerciseGlyphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D6E242C1B000100000001 /* ExerciseGlyphView.swift */; };
+		8D5D6F252C1B000100000001 /* ExerciseGuideDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D6E252C1B000100000001 /* ExerciseGuideDemoView.swift */; };
+		8D5D6F262C1B000100000001 /* ExerciseMotionDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D6E262C1B000100000001 /* ExerciseMotionDemoView.swift */; };
+		8D5D6F272C1B000100000001 /* TrainingReminderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D6E272C1B000100000001 /* TrainingReminderService.swift */; };
+		8D5D6F282C1B000100000001 /* TrainingReminderSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D6E282C1B000100000001 /* TrainingReminderSettingsView.swift */; };
+		8D5D80012C1B000100000001 /* JianshengjilyWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D80112C1B000100000001 /* JianshengjilyWatchApp.swift */; };
+		8D5D80022C1B000100000001 /* WatchRecordService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D80122C1B000100000001 /* WatchRecordService.swift */; };
+		8D5D80032C1B000100000001 /* WatchRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D80132C1B000100000001 /* WatchRecordView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ABCD00000000000000000002 = {isa = PBXFileReference; lastKnownFileType = folder; path = MuscleMap; sourceTree = "<group>"; };
+		8D5D6D012C1B000100000001 /* jianshengjily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jianshengjily.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5D6E012C1B000100000001 /* JianshengjilyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JianshengjilyApp.swift; sourceTree = "<group>"; };
+		8D5D6E022C1B000100000001 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		8D5D6E032C1B000100000001 /* WorkoutSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSession.swift; sourceTree = "<group>"; };
+		8D5D6E042C1B000100000001 /* SetLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetLog.swift; sourceTree = "<group>"; };
+		8D5D6E052C1B000100000001 /* WorkoutService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutService.swift; sourceTree = "<group>"; };
+		8D5D6E062C1B000100000001 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8D5D6E072C1B000100000001 /* ActiveWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveWorkoutView.swift; sourceTree = "<group>"; };
+		8D5D6E082C1B000100000001 /* ExercisePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisePickerView.swift; sourceTree = "<group>"; };
+		8D5D6E092C1B000100000001 /* ExerciseSetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseSetView.swift; sourceTree = "<group>"; };
+		8D5D6E0A2C1B000100000001 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		8D5D6E0B2C1B000100000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D5D6E0C2C1B000100000001 /* TrainingGlassStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingGlassStyle.swift; sourceTree = "<group>"; };
+		8D5D6E0D2C1B000100000001 /* WorkoutTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTemplate.swift; sourceTree = "<group>"; };
+		8D5D6E0E2C1B000100000001 /* HealthKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitService.swift; sourceTree = "<group>"; };
+		8D5D6E0F2C1B000100000001 /* SharePosterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePosterService.swift; sourceTree = "<group>"; };
+		8D5D6E102C1B000100000001 /* WatchConnectivityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectivityService.swift; sourceTree = "<group>"; };
+		8D5D6E112C1B000100000001 /* TemplatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplatesView.swift; sourceTree = "<group>"; };
+		8D5D6E122C1B000100000001 /* PRView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PRView.swift; sourceTree = "<group>"; };
+		8D5D6E132C1B000100000001 /* RestTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestTimerView.swift; sourceTree = "<group>"; };
+		8D5D6E142C1B000100000001 /* jianshengjily.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = jianshengjily.entitlements; sourceTree = "<group>"; };
+		8D5D6E152C1B000100000001 /* WorkoutLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutLogic.swift; sourceTree = "<group>"; };
+		8D5D6E162C1B000100000001 /* HistoryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDetailView.swift; sourceTree = "<group>"; };
+		8D5D6E292C1B000100000001 /* WorkoutRecapPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutRecapPreviewView.swift; sourceTree = "<group>"; };
+		8D5D6E172C1B000100000001 /* HapticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsService.swift; sourceTree = "<group>"; };
+		8D5D6E182C1B000100000001 /* WorkoutNoteEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutNoteEditorView.swift; sourceTree = "<group>"; };
+		8D5D6E192C1B000100000001 /* TrainingPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingPlan.swift; sourceTree = "<group>"; };
+		8D5D6E1A2C1B000100000001 /* TrainingPlansView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingPlansView.swift; sourceTree = "<group>"; };
+		8D5D6E1B2C1B000100000001 /* AboutPrivacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutPrivacyView.swift; sourceTree = "<group>"; };
+		8D5D6E1C2C1B000100000001 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		8D5D6E1F2C1B000100000001 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D5D6E202C1B000100000001 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		8D5D6E212C1B000100000001 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		8D5D6E222C1B000100000001 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
+		8D5D6E232C1B000100000001 /* DefaultContentLocalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultContentLocalization.swift; sourceTree = "<group>"; };
+		8D5D6E242C1B000100000001 /* ExerciseGlyphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseGlyphView.swift; sourceTree = "<group>"; };
+		8D5D6E252C1B000100000001 /* ExerciseGuideDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseGuideDemoView.swift; sourceTree = "<group>"; };
+		8D5D6E262C1B000100000001 /* ExerciseMotionDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseMotionDemoView.swift; sourceTree = "<group>"; };
+		8D5D6E272C1B000100000001 /* TrainingReminderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingReminderService.swift; sourceTree = "<group>"; };
+		8D5D6E282C1B000100000001 /* TrainingReminderSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingReminderSettingsView.swift; sourceTree = "<group>"; };
+		8D5D80102C1B000100000001 /* jianshengjily Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jianshengjily Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5D80112C1B000100000001 /* JianshengjilyWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JianshengjilyWatchApp.swift; sourceTree = "<group>"; };
+		8D5D80122C1B000100000001 /* WatchRecordService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchRecordService.swift; sourceTree = "<group>"; };
+		8D5D80132C1B000100000001 /* WatchRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchRecordView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D5D6C012C1B000100000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D5D80202C1B000100000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D5D6A012C1B000100000001 = {
+			isa = PBXGroup;
+			children = (
+				8D5D6B012C1B000100000001 /* jianshengjily */,
+				8D5D80502C1B000100000001 /* jianshengjily Watch App */,
+				8D5D6D022C1B000100000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D5D6B012C1B000100000001 /* jianshengjily */ = {
+			isa = PBXGroup;
+			children = (
+				8D5D6E012C1B000100000001 /* JianshengjilyApp.swift */,
+				8D5D6B022C1B000100000001 /* Models */,
+				8D5D6B032C1B000100000001 /* Services */,
+				8D5D6B042C1B000100000001 /* Views */,
+				8D5D6E0B2C1B000100000001 /* Assets.xcassets */,
+				ABCD00000000000000000002,
+				8D5D6E212C1B000100000001 /* Localizable.xcstrings */,
+				8D5D6E222C1B000100000001 /* InfoPlist.xcstrings */,
+				8D5D6E1F2C1B000100000001 /* LaunchScreen.storyboard */,
+				8D5D6E1C2C1B000100000001 /* PrivacyInfo.xcprivacy */,
+				8D5D6E142C1B000100000001 /* jianshengjily.entitlements */,
+			);
+			path = jianshengjily;
+			sourceTree = "<group>";
+		};
+		8D5D6B022C1B000100000001 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8D5D6E022C1B000100000001 /* Exercise.swift */,
+				8D5D6E032C1B000100000001 /* WorkoutSession.swift */,
+				8D5D6E042C1B000100000001 /* SetLog.swift */,
+				8D5D6E0D2C1B000100000001 /* WorkoutTemplate.swift */,
+				8D5D6E192C1B000100000001 /* TrainingPlan.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8D5D6B032C1B000100000001 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8D5D6E052C1B000100000001 /* WorkoutService.swift */,
+				8D5D6E0E2C1B000100000001 /* HealthKitService.swift */,
+				8D5D6E0F2C1B000100000001 /* SharePosterService.swift */,
+				8D5D6E102C1B000100000001 /* WatchConnectivityService.swift */,
+				8D5D6E152C1B000100000001 /* WorkoutLogic.swift */,
+				8D5D6E172C1B000100000001 /* HapticsService.swift */,
+				8D5D6E202C1B000100000001 /* Localization.swift */,
+				8D5D6E232C1B000100000001 /* DefaultContentLocalization.swift */,
+				8D5D6E272C1B000100000001 /* TrainingReminderService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8D5D6B042C1B000100000001 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8D5D6E062C1B000100000001 /* HomeView.swift */,
+				8D5D6E072C1B000100000001 /* ActiveWorkoutView.swift */,
+				8D5D6E082C1B000100000001 /* ExercisePickerView.swift */,
+				8D5D6E092C1B000100000001 /* ExerciseSetView.swift */,
+				8D5D6E0A2C1B000100000001 /* HistoryView.swift */,
+				8D5D6E162C1B000100000001 /* HistoryDetailView.swift */,
+				8D5D6E292C1B000100000001 /* WorkoutRecapPreviewView.swift */,
+				8D5D6E242C1B000100000001 /* ExerciseGlyphView.swift */,
+				8D5D6E252C1B000100000001 /* ExerciseGuideDemoView.swift */,
+				8D5D6E262C1B000100000001 /* ExerciseMotionDemoView.swift */,
+				8D5D6E0C2C1B000100000001 /* TrainingGlassStyle.swift */,
+				8D5D6E112C1B000100000001 /* TemplatesView.swift */,
+				8D5D6E122C1B000100000001 /* PRView.swift */,
+				8D5D6E132C1B000100000001 /* RestTimerView.swift */,
+				8D5D6E182C1B000100000001 /* WorkoutNoteEditorView.swift */,
+				8D5D6E1A2C1B000100000001 /* TrainingPlansView.swift */,
+				8D5D6E1B2C1B000100000001 /* AboutPrivacyView.swift */,
+				8D5D6E282C1B000100000001 /* TrainingReminderSettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8D5D6D022C1B000100000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5D6D012C1B000100000001 /* jianshengjily.app */,
+				8D5D80102C1B000100000001 /* jianshengjily Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D5D80502C1B000100000001 /* jianshengjily Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				8D5D80112C1B000100000001 /* JianshengjilyWatchApp.swift */,
+				8D5D80122C1B000100000001 /* WatchRecordService.swift */,
+				8D5D80132C1B000100000001 /* WatchRecordView.swift */,
+			);
+			path = "jianshengjily Watch App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D5D6C022C1B000100000001 /* jianshengjily */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D5D71022C1B000100000001 /* Build configuration list for PBXNativeTarget "jianshengjily" */;
+			buildPhases = (
+				8D5D6C032C1B000100000001 /* Sources */,
+				8D5D6C012C1B000100000001 /* Frameworks */,
+				8D5D6C042C1B000100000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jianshengjily;
+			productName = jianshengjily;
+			productReference = 8D5D6D012C1B000100000001 /* jianshengjily.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D5D80302C1B000100000001 /* jianshengjily Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D5D80402C1B000100000001 /* Build configuration list for PBXNativeTarget "jianshengjily Watch App" */;
+			buildPhases = (
+				8D5D80212C1B000100000001 /* Sources */,
+				8D5D80202C1B000100000001 /* Frameworks */,
+				8D5D80222C1B000100000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "jianshengjily Watch App";
+			productName = "jianshengjily Watch App";
+			productReference = 8D5D80102C1B000100000001 /* jianshengjily Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D5D69012C1B000100000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					8D5D6C022C1B000100000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					8D5D80302C1B000100000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 8D5D70012C1B000100000001 /* Build configuration list for PBXProject "jianshengjily" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				"en-US",
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 8D5D6A012C1B000100000001;
+			productRefGroup = 8D5D6D022C1B000100000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D5D6C022C1B000100000001 /* jianshengjily */,
+				8D5D80302C1B000100000001 /* jianshengjily Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D5D6C042C1B000100000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5D6F0B2C1B000100000001 /* Assets.xcassets in Resources */,
+				ABCD00000000000000000001,
+				8D5D6F212C1B000100000001 /* Localizable.xcstrings in Resources */,
+				8D5D6F222C1B000100000001 /* InfoPlist.xcstrings in Resources */,
+				8D5D6F1F2C1B000100000001 /* LaunchScreen.storyboard in Resources */,
+				8D5D6F1C2C1B000100000001 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D5D80222C1B000100000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D5D6C032C1B000100000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5D6F012C1B000100000001 /* JianshengjilyApp.swift in Sources */,
+				8D5D6F022C1B000100000001 /* Exercise.swift in Sources */,
+				8D5D6F032C1B000100000001 /* WorkoutSession.swift in Sources */,
+				8D5D6F042C1B000100000001 /* SetLog.swift in Sources */,
+				8D5D6F052C1B000100000001 /* WorkoutService.swift in Sources */,
+				8D5D6F062C1B000100000001 /* HomeView.swift in Sources */,
+				8D5D6F072C1B000100000001 /* ActiveWorkoutView.swift in Sources */,
+				8D5D6F082C1B000100000001 /* ExercisePickerView.swift in Sources */,
+				8D5D6F092C1B000100000001 /* ExerciseSetView.swift in Sources */,
+				8D5D6F0A2C1B000100000001 /* HistoryView.swift in Sources */,
+				8D5D6F242C1B000100000001 /* ExerciseGlyphView.swift in Sources */,
+				8D5D6F252C1B000100000001 /* ExerciseGuideDemoView.swift in Sources */,
+				8D5D6F262C1B000100000001 /* ExerciseMotionDemoView.swift in Sources */,
+				8D5D6F0C2C1B000100000001 /* TrainingGlassStyle.swift in Sources */,
+				8D5D6F0D2C1B000100000001 /* WorkoutTemplate.swift in Sources */,
+				8D5D6F0F2C1B000100000001 /* SharePosterService.swift in Sources */,
+				8D5D6F112C1B000100000001 /* TemplatesView.swift in Sources */,
+				8D5D6F122C1B000100000001 /* PRView.swift in Sources */,
+				8D5D6F132C1B000100000001 /* RestTimerView.swift in Sources */,
+				8D5D6F152C1B000100000001 /* WorkoutLogic.swift in Sources */,
+				8D5D6F162C1B000100000001 /* HistoryDetailView.swift in Sources */,
+				8D5D6F292C1B000100000001 /* WorkoutRecapPreviewView.swift in Sources */,
+				8D5D6F172C1B000100000001 /* HapticsService.swift in Sources */,
+				8D5D6F182C1B000100000001 /* WorkoutNoteEditorView.swift in Sources */,
+				8D5D6F192C1B000100000001 /* TrainingPlan.swift in Sources */,
+				8D5D6F1A2C1B000100000001 /* TrainingPlansView.swift in Sources */,
+				8D5D6F1B2C1B000100000001 /* AboutPrivacyView.swift in Sources */,
+				8D5D6F202C1B000100000001 /* Localization.swift in Sources */,
+				8D5D6F232C1B000100000001 /* DefaultContentLocalization.swift in Sources */,
+				8D5D6F272C1B000100000001 /* TrainingReminderService.swift in Sources */,
+				8D5D6F282C1B000100000001 /* TrainingReminderSettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D5D80212C1B000100000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5D80012C1B000100000001 /* JianshengjilyWatchApp.swift in Sources */,
+				8D5D80022C1B000100000001 /* WatchRecordService.swift in Sources */,
+				8D5D80032C1B000100000001 /* WatchRecordView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8D5D70022C1B000100000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D5D70032C1B000100000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D5D71032C1B000100000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIconAmber AppIconLava AppIconOcean";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "力迹";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gradform.liji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8D5D71042C1B000100000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIconAmber AppIconLava AppIconOcean";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "力迹";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gradform.liji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8D5D80412C1B000100000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "力迹";
+				INFOPLIST_KEY_WKApplication = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.gradform.liji;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gradform.liji.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		8D5D80422C1B000100000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "力迹";
+				INFOPLIST_KEY_WKApplication = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.gradform.liji;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gradform.liji.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D5D70012C1B000100000001 /* Build configuration list for PBXProject "jianshengjily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D5D70022C1B000100000001 /* Debug */,
+				8D5D70032C1B000100000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D5D71022C1B000100000001 /* Build configuration list for PBXNativeTarget "jianshengjily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D5D71032C1B000100000001 /* Debug */,
+				8D5D71042C1B000100000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D5D80402C1B000100000001 /* Build configuration list for PBXNativeTarget "jianshengjily Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D5D80412C1B000100000001 /* Debug */,
+				8D5D80422C1B000100000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D5D69012C1B000100000001 /* Project object */;
+}

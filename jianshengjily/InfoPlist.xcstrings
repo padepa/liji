@@ -1,0 +1,23 @@
+{
+  "sourceLanguage" : "zh-Hans",
+  "strings" : {
+    "CFBundleDisplayName" : {
+      "comment" : "The app name shown on the Home Screen. Liji is a reversible transliteration while the final US storefront product name is pending approval.",
+      "localizations" : {
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liji"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "力迹"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
